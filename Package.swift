@@ -27,7 +27,7 @@ import PackageDescription
 import class Foundation.ProcessInfo
 
 // To develop this on Apple platforms, set this to true
-let development = false
+let development = true
 
 // Ideally, we should use `.when(platforms:)` to set `swiftSettings` and
 // `dependencies` like on other platforms. However, `Platform.freebsd` is not
